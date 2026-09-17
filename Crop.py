@@ -81,4 +81,4 @@ plt.figure(figsize=(7,6))
 plt.scatter(y_test, y_pred_best, alpha=0.7, edgecolors='k')
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', label='Ideal Line')
 plt.xlabel("Actual Yield")
-plt.ylabe
+plt.ylabel
